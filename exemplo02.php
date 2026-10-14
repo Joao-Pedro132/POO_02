@@ -1,5 +1,5 @@
 <?php
-
+// construtores
 class Produto{
     public string $nome;
     public float $preco;

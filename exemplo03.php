@@ -1,4 +1,5 @@
 <?php
+// construtores
 // Chamar método dentro de outro método
 class Triangulo{
     public float $base;
