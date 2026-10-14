@@ -32,7 +32,6 @@ class ContaBancaria{
     public function exibirSaldo(){
         echo "Titular: " . $this->titular . "<br>";
         echo "Saldo: R$" . Number_format($this->saldo, 2, ",", ".") . "<br>";
-        echo "<br>";
     }
 }
 
@@ -42,6 +41,8 @@ $titular1->sacar(3300);
 $titular1->depositar(200);
 $titular1->sacar(6000);
 $titular1->exibirSaldo();
+
+echo"<br>";
 
 $titular2 = new ContaBancaria('Rafael', 3450);
 $titular2->exibirSaldo();
